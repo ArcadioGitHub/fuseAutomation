@@ -1,0 +1,28 @@
+{
+    "name": "fuseautomation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write .",
+        "functional:ui": "npx playwright test functional/ui",
+        "functional:api": "npx playwright test functional/api",
+        "functional:all": "npx playwright test functional/",
+        "uiMode": "npx playwright test --ui",
+        "showAllureReport": "npx allure generate allure-results && npx allure open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@playwright/test": "^1.51.1",
+        "@types/node": "^22.13.1",
+        "allure-playwright": "^3.2.0",
+        "prettier": "^3.4.2"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "fs-extra": "^11.3.0",
+        "winston": "^3.17.0"
+    }
+}
