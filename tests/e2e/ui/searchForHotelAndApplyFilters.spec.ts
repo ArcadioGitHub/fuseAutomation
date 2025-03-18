@@ -9,6 +9,7 @@ import {
   isArraySortedLowToHigh,
 } from "../../../shared/ui/utils/commonUtils";
 import HotelsResultsPageElements from "../../../shared/ui/expedia/pages/resultsPage/HotelsResultsPage.elements";
+import { urlPaths } from "../../../shared/assets/pathUrls";
 
 /**
  * Test Case: User Story 1 - Search for a Hotel and Apply Filters
@@ -131,4 +132,10 @@ test("User Story 1: Search for a Hotel and Apply Filters - @hotels", async ({ pa
   expect(await isArraySortedLowToHigh(hotelPrices)).toBe(true);
   logger.info("Hotel Prices: " + hotelPrices);
   logger.info("Number of Hotels sorting by low to high: " + hotelPrices.length);
+});
+
+test("User Story 1: Open Expedia Main Page - @ci", async ({ page }) => {
+   const mainPage = urlPaths.paths.ui.expediaMainPage().toString();
+  await page.goto(mainPage);
+  expect(page.url()).toContain(`${mainPage}`);
 });

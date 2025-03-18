@@ -24,11 +24,22 @@ npm run format
 Formats the project files using Prettier.
 
 ### Running Tests
+#### E2E UI Tests
+```sh
+npm run e2e
+```
+Runs Playwright UI tests located in `e2e/ui`.
+
 #### Functional UI Tests
 ```sh
 npm run functional:ui
 ```
 Runs Playwright UI tests located in `functional/ui`.
+
+```sh
+npm run ci
+```
+Runs tests tagged with @ci using BrowserStack integration.
 
 #### Functional API Tests
 ```sh

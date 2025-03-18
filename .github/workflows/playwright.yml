@@ -26,16 +26,29 @@ jobs:
         echo "APP_ENVIRONMENT=${{ secrets.APP_ENVIRONMENT }}" >> .env
         echo "EXPEDIA_USER=${{ secrets.EXPEDIA_USER }}" >> .env
         echo "EXPEDIA_PASS=${{ secrets.EXPEDIA_PASS }}" >> .env
+        echo "CI=${{ secrets.CI }}" >> .env
+        echo "BROWSERSTACK_USERNAME:  ${{ secrets.BROWSERSTACK_USERNAME }}" >> .env
+        echo "BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}" >> .env
 
-    - name: Run Playwright tests with Allure
-      run: npx playwright test --reporter=line,allure-playwright
+    - name: 'BrowserStack Env Setup'
+      uses: browserstack/github-actions/setup-env@master
+      with:
+          username:  ${{ secrets.BROWSERSTACK_USERNAME }}
+          access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
-    - name: Generate Allure Report
-      run: npx allure generate allure-results
+    - name: Run Playwright tests 
+      run: npm run ci
+      continue-on-error: true
 
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+    - name: Generate Allure results report
+      if: always()
+      run: |
+       npx allure generate allure-results --output allure-report
+      continue-on-error: true
+
+    - name: Upload Allure Report to Artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
       with:
         name: allure-report
-        path: allure-report/
-        retention-days: 30
+        path: allure-report

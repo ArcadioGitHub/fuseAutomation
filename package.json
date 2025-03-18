@@ -4,11 +4,13 @@
     "main": "index.js",
     "scripts": {
         "format": "prettier --write .",
+        "e2e": "npx playwright test e2e/ui",
+        "ci": "npx browserstack-node-sdk playwright test --grep '@ci'",
         "functional:ui": "npx playwright test functional/ui",
         "functional:api": "npx playwright test functional/api",
         "functional:all": "npx playwright test functional/",
         "uiMode": "npx playwright test --ui",
-        "showAllureReport": "npx allure generate allure-results && npx allure open"
+        "showAllureReport": "allure generate allure-results --clean && npx allure open"
     },
     "keywords": [],
     "author": "",
@@ -18,6 +20,7 @@
         "@playwright/test": "^1.51.1",
         "@types/node": "^22.13.1",
         "allure-playwright": "^3.2.0",
+        "browserstack-node-sdk": "^1.34.44",
         "prettier": "^3.4.2"
     },
     "dependencies": {

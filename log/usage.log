@@ -1,0 +1,101 @@
+2025-03-17 21:34:17 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test
+2025-03-17 21:34:17 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 21:34:17 - [31merror[39m: end of the stream or a document separator is expected (7:1)
+
+ 4 | osVersion: 11
+ 5 | browserName: chrome
+ 6 | browserVersion: latest
+ 7 | - os: OS X
+-----^
+ 8 | osVersion: Ventura
+ 9 | browserName: playwright-webkit
+2025-03-17 21:34:17 - [32minfo[39m: SDK run started with id: d7f03938-7c95-4895-9e33-9f3c63024544
+2025-03-17 21:34:17 - [31merror[39m: Error: end of the stream or a document separator is expected (7:1)
+
+ 4 | osVersion: 11
+ 5 | browserName: chrome
+ 6 | browserVersion: latest
+ 7 | - os: OS X
+-----^
+ 8 | osVersion: Ventura
+ 9 | browserName: playwright-webkit
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11858)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)
+2025-03-17 21:35:11 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test
+2025-03-17 21:35:11 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 21:35:11 - [32minfo[39m: SDK run started with id: 3e1f9288-f13a-4bdf-b8c1-dff674fe88c3
+2025-03-17 21:35:11 - [31merror[39m: Error: userName or accessKey is not defined
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11199)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)
+2025-03-17 21:42:52 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test
+2025-03-17 21:42:52 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 21:42:52 - [32minfo[39m: SDK run started with id: 94968eeb-f9c6-488e-aba1-7c16f47e263d
+2025-03-17 21:42:52 - [31merror[39m: Error: userName or accessKey is not defined
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11199)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)
+2025-03-17 21:57:56 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test --grep @hotels
+2025-03-17 21:57:56 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 21:57:56 - [32minfo[39m: SDK run started with id: ac622d99-5390-422d-ab62-4ced58fc5044
+2025-03-17 21:57:56 - [31merror[39m: Error: userName or accessKey is not defined
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11199)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)
+2025-03-17 22:04:50 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test --grep @hotels --reporter=list --reporter=allure-playwright
+2025-03-17 22:04:50 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 22:04:50 - [32minfo[39m: SDK run started with id: 7ee47199-27af-488c-9919-fdadba275c87
+2025-03-17 22:04:50 - [31merror[39m: Error: userName or accessKey is not defined
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11199)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)
+2025-03-17 22:28:14 - [32minfo[39m: Running SDK with args /Users/arcadiobuelvas/.nvm/versions/node/v20.15.0/bin/node /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/.bin/browserstack-node-sdk playwright test --grep @hotels
+2025-03-17 22:28:14 - [32minfo[39m: Reading configs from /Users/arcadiobuelvas/Desktop/FuseAutomation/browserstack.yml
+2025-03-17 22:28:14 - [32minfo[39m: SDK run started with id: 1630bbee-00b5-4293-b045-ac8cb2ddf18a
+2025-03-17 22:28:14 - [31merror[39m: Error: userName or accessKey is not defined
+    at new BrowserStackSetup (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/helpers/BrowserStackSetup.js:1:11199)
+    at run (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/playwright/command.js:2:10096)
+    at Object.qZgAe (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1372)
+    at captureError (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:1537)
+    at Object.OktHa (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9229)
+    at /Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/browserstack-node-sdk/src/bin/runner.js:2:9441
+    at _.applyBuilderUpdateUsageAndParse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7435)
+    at _.runCommand (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:58539)
+    at te.parse (/Users/arcadiobuelvas/Desktop/FuseAutomation/node_modules/yargs/build/index.cjs:1:40478)

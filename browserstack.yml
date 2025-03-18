@@ -1,0 +1,12 @@
+framework: playwright
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+browserstackLocal: false
+buildName: playwright-ts
+buildIdentifier: ${BUILD_NUMBER}
+projectName: playwright-ts
+debug: true
+consoleLogs: verbose
